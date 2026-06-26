@@ -1,0 +1,9 @@
+# raw data is never committed; loaders fetch + cache here
+data/
+.venv/
+.ruff_cache/
+__pycache__/
+*.pyc
+*.egg-info
+# figures are regenerable; keep the repo light. commit a curated few by force-add if wanted.
+figures/
